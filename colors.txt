@@ -1,0 +1,20 @@
+#F28241 orange
+#F29C50 lighter orange
+#A65A49 terra cotta
+#F2F0F0 whitish
+#252625 very dark brown
+#4D733C medium green
+#252625 very dark green
+
+    background: #e6e5e1;
+
+
+
+font-family: 'Baloo 2', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Fugaz One', cursive;
+font-family: 'Gruppo', cursive;
+font-family: 'Overlock', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Unica One', cursive;

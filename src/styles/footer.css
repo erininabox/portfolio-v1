@@ -1,0 +1,22 @@
+.footer {
+    width: 95%;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 25px;
+}
+
+.footer-list, .footer-list-items {
+    color: #252625;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Baloo 2", sans-serif;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.footer-list-items {
+    margin: 10px;
+}
+  

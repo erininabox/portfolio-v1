@@ -1,0 +1,40 @@
+.header {
+    font-size: 20pt;
+    font-weight: 600;
+    margin: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-name {
+    font-family: 'Special Elite';
+    color: #252625;
+    font-size: 1.5em;
+}
+
+.link-list, .link-list-items {
+    color: #252625;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.link-list-items {
+    margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        font-size: 16pt;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}

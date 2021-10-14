@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Carter+One&family=Fugaz+One&family=Gruppo&family=Overlock&family=Poiret+One&family=Special+Elite&family=Unica+One&display=swap');
+
+
+.app-container {
+  font-family: "Baloo 2";
+  color: #252625;
+  width: 100%;
+}
+
+.component {
+  margin: auto;
+  padding: 10px 5vw 10px 25vw;
+}
+
+@media screen and (max-width: 700px) {
+  .component {
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+
+h1 {
+  font-family: 'Special Elite';
+  color: #F28241;
+  text-align: center;
+}
+h2 {
+  font-family: 'Unica One';
+  color: #4D733C;
+}
+h3 {
+  font-family: 'Special Elite';
+  color: #252625;
+  font-size: 1em;
+  line-height: 0.3;
+  padding-top: 5px;
+}
+p {
+  font-family: 'Baloo 2';
+  line-height: 0.5;
+  padding-bottom: 11px;
+}
+a {
+  text-decoration: none;
+  color: #4D733C;
+}
+
+.icon {
+  width: 1.1em;
+}
