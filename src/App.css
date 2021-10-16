@@ -64,3 +64,30 @@ ul {
   padding: 0px;
   list-style-type: none;
 }
+.highlighted-skills {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.skill-hp {
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #07202ca6;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px;
+}
+/* .skill-hp {
+  border-radius: 50px;
+  background: #166b3e;
+  color: #ffffff;
+  border: 2px solid #252625;
+  font-weight: bold;
+  padding: 0px 10px;
+  margin: 5px;
+  letter-spacing: 2px;
+} */
+.resume-component {
+  margin: auto;
+  padding: 10px 15vw 10px 5vw;
+}

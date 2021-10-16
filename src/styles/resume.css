@@ -1,20 +1,22 @@
-.degree {
-    padding: 0px;
-    display: flex;
-    flex-wrap: nowrap;
+/* General Resume Page elements */
+p {
+    padding-bottom: 0px;
 }
 
-.degree-year {
-    width: 100px;
+.resume-section {
+    margin-top: 30px;
 }
 
+
+/* Skills Section */
 .skill-cards {
     display: flex;
     flex-wrap: wrap;
+    margin: auto auto 20px auto;
 }
 .skill-section {
     display: flex;
-    margin: 10px 80px 10px 0px;
+    margin: 5px 60px 10px 0px;
     flex-direction: column;
     min-width: fit-content;
 }
@@ -28,10 +30,27 @@
     );
 }
 
-p {
-    padding-bottom: 0px;
+/* Education Section */
+.degree {
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.resume-section {
-    margin-top: 10px;
+.degree-year {
+    width: 100px;
+}
+
+/* Experience Section */
+.job {
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.job-years {
+    width: 150px;
+}
+.job-title {
+    font-weight: 600;
 }
