@@ -77,17 +77,23 @@ ul {
   padding: 5px 15px;
   margin: 5px;
 }
-/* .skill-hp {
-  border-radius: 50px;
-  background: #166b3e;
-  color: #ffffff;
-  border: 2px solid #252625;
-  font-weight: bold;
-  padding: 0px 10px;
-  margin: 5px;
-  letter-spacing: 2px;
-} */
 .resume-component {
   margin: auto;
   padding: 10px 15vw 10px 5vw;
+}
+
+.contact-items {
+  border: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+.contact-icon {
+  max-width: 20px;
+  padding: 0px 5px 6px 0;
+}
+.contact-text {
+  justify-self: flex-start;
+  padding: 0px 5px;
 }

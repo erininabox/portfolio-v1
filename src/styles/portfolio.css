@@ -21,6 +21,10 @@
     min-width: 300px;
     border: solid 1px;
 }
+.portfolio-link {
+    margin-right: 10px;
+    font-weight: bold;
+}
 @media screen and (max-width: 700px) {
     .portfolio-item {
         display: flex;

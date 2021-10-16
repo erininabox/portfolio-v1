@@ -33,24 +33,45 @@ p {
 /* Education Section */
 .degree {
     padding: 0px;
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "degree-year degree-text";
 }
+.degree-text {
 
+}
 .degree-year {
     width: 100px;
+}
+.degree-title {
+    font-weight: 600;
+    display: block;
+}
+.degree-school-location {
+    display: block;
 }
 
 /* Experience Section */
 .job {
     padding: 0px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.job-years {
-    width: 150px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 1fr;
+    grid-template-areas: "job-years job-text";
 }
 .job-title {
     font-weight: 600;
+    display: block;
+}
+.job-company-location {
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    .job, .job-title, .job-company-location, .degree, .degree-title, .degree-school-location{
+        display: block;
+    }  
 }
