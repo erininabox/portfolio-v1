@@ -1,0 +1,30 @@
+.portfolio-item {
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto;
+}
+.portfolio-item-text {
+    display: block;
+    margin: 15px;
+}
+.portfolio-item-text p {
+    padding: 0px;
+    margin: 10px auto;
+}
+.img-container {
+    width: 300px;
+    max-height: 350px;
+    object-fit: contain;
+}
+.portfolio-img {
+    max-width: 100%;
+    min-width: 300px;
+    border: solid 1px;
+}
+@media screen and (max-width: 700px) {
+    .portfolio-item {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+}

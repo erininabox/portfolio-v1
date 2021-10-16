@@ -5,16 +5,16 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(./img/landing-cactus.jpg);
+  background: url(./img/landing-cactus-new.jpg);
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: bottom right;
   background-attachment: fixed;
   background-size: cover;
 }
 
 @media screen and (max-width: 700px) {
   body {
-    background: #e6e5e1;
+    background: #AAD5E6;
   }
 }
 

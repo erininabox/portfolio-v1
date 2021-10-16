@@ -3,11 +3,12 @@
     font-weight: 600;
     margin: 25px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: nowrap;
     width: 95%;
     justify-content: space-between;
     align-items: center;
+    color: #252625;
 }
 
 .title-name {
@@ -16,17 +17,19 @@
     font-size: 1.5em;
 }
 
-.link-list, .link-list-items {
+.link-list, .link-list-items, .icon-list {
     color: #252625;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Baloo 2", sans-serif;
+    font-family: "Unica One", sans-serif;
 }
 
 .link-list-items {
     margin: 10px;
 }
-
+.list-container {
+    display: flex;
+}
 @media screen and (max-width: 700px) {
     .header {
         font-size: 16pt;
@@ -37,4 +40,16 @@
         justify-content: center;
         margin: auto;
     }
+    .list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .link-list, .icon-list {
+        padding: 5px;
+    }
 }
+.icon {
+    font-size: medium;   
+}
+

@@ -6,12 +6,18 @@
   color: #252625;
   width: 100%;
 }
-
 .component {
   margin: auto;
-  padding: 10px 5vw 10px 25vw;
+  padding: 10px 25vw 10px 5vw;
 }
-
+.home {
+  margin: auto;
+  display: flex;
+  padding: 10px 25vw 10px 5vw;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 60vh;
+}
 @media screen and (max-width: 700px) {
   .component {
     margin: auto;
@@ -19,15 +25,19 @@
   }
 }
 
+.emphasis-text {
+  font-weight: 800;
+  color: #252625;
+  border-bottom: 3px solid #e77b3d;
+  display: inline;
+}
 
 h1 {
   font-family: 'Special Elite';
-  color: #F28241;
   text-align: center;
 }
 h2 {
   font-family: 'Unica One';
-  color: #4D733C;
 }
 h3 {
   font-family: 'Special Elite';
@@ -38,14 +48,19 @@ h3 {
 }
 p {
   font-family: 'Baloo 2';
-  line-height: 0.5;
   padding-bottom: 11px;
 }
 a {
   text-decoration: none;
-  color: #4D733C;
+  border-bottom: 3px solid #e77b3d;
+  color: #252625;
 }
 
 .icon {
   width: 1.1em;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
 }

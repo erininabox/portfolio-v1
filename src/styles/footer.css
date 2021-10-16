@@ -1,22 +1,32 @@
-.footer {
-    width: 95%;
-    font-weight: 600;
-    font-size: 1.1em;
-    margin: 25px;
+.icon {
+    font-size: medium;   
 }
-
-.footer-list, .footer-list-items {
+.link-list, .link-list-items, .icon-list {
     color: #252625;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Baloo 2", sans-serif;
+    font-family: "Unica One", sans-serif;
 }
-.footer-list {
+.icon-list {
     display: flex;
-    align-items: center;
-    justify-content: right;
 }
-.footer-list-items {
-    margin: 10px;
+.vertical-menu {
+    writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    position: fixed;
+    right: 0px;
+    margin: 15px;
 }
-  
+@media screen and (max-width: 700px) {
+    .vertical-menu {
+        writing-mode: horizontal-tb;
+        position: relative;
+        display: flex;
+    }
+    .icon-list {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+}
