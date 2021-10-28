@@ -31,7 +31,7 @@ function Footer() {
         >
           <img src={aticon} className="icon" alt="Email me" />
         </a>
-        <a href="https://1drv.ms/b/s!AiKEr1mskbPwidRrHjbAlU_fQb_e8A" className="link-list-items" download>
+        <a href="https://1drv.ms/b/s!AiKEr1mskbPwidRrHjbAlU_fQb_e8A" className="link-list-items" target="_blank" rel="noreferrer">
           <img src={resumeicon} className="icon" alt="Resume file" />
         </a>
       </span>
