@@ -4,7 +4,7 @@ import linkedinicon from "../img/icons/linkedin.svg";
 import githubicon from "../img/icons/github.svg";
 import resumeicon from "../img/icons/file-text.svg";
 import {Link} from 'react-router-dom';
-import resume from '../files/Halden-Erin.pdf';
+
 
 function Footer() {
   return (
@@ -31,9 +31,9 @@ function Footer() {
         >
           <img src={aticon} className="icon" alt="Email me" />
         </a>
-        <Link to={resume} className="link-list-items" download>
+        <a href="https://1drv.ms/b/s!AiKEr1mskbPwidRrHjbAlU_fQb_e8A" className="link-list-items" download>
           <img src={resumeicon} className="icon" alt="Resume file" />
-        </Link>
+        </a>
       </span>
     </footer>
   );

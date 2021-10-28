@@ -3,8 +3,6 @@ import linkedinicon from "../img/icons/linkedin.svg";
 import githubicon from "../img/icons/github.svg";
 import resumeicon from "../img/icons/file-text.svg";
 import phoneicon from "../img/icons/phone.svg";
-import resume from "../files/Halden-Erin.pdf";
-import {Link} from "react-router-dom";
 
 function Contact() {
   return (
@@ -34,10 +32,10 @@ function Contact() {
         <img src={aticon} className="contact-icon" alt="Email me" />
         <span className="contact-text">Email Me: erinhalden@erininabox.com</span>
       </a>
-      <Link to={resume} className="contact-items" download>
+      <a href="https://1drv.ms/b/s!AiKEr1mskbPwidRrHjbAlU_fQb_e8A" className="link-list-items" download>
         <img src={resumeicon} className="contact-icon" alt="Resume file" />
         <span className="contact-text">Download my resume</span>
-      </Link>
+      </a>
       <a href="tel:+14158234794" className="contact-items" target="_blank" rel="noreferrer">
         <img src={phoneicon} className="contact-icon" alt="Phone number" />
         <span className="contact-text">Call or text</span>
