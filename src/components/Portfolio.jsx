@@ -3,12 +3,26 @@ import Bookward from "../img/portfolio/Bookward.png";
 import Wayfarer from "../img/portfolio/Wayfarer.png";
 import Engayged from "../img/portfolio/Engayged.png";
 import GigaCat from "../img/portfolio/Giga-Cat.png";
+import Fireside from "../img/portfolio/Fireside.png";
 import "../styles/portfolio.css";
 
 class Portfolio extends Component {
   render() {
     return (
       <div className="component">
+        <div className="portfolio-item">
+          <div className="img-container">
+            <img src={Fireside} className="portfolio-img" alt="Fireside screenshot"></img>
+          </div>
+          <div className="portfolio-item-text">
+            <h3>Fireside</h3>
+            <p>First place winner & People's Choice winner of the November 2021 General Assembly Accessibility hackathon. Accessible friendship-building app to decrease social isolation in seniors during the holidays.</p>
+            <p>MongoDB, Express.js, React, Node.js, SASS, Mongoose</p>
+            <a href="https://fireside-hackathon.herokuapp.com/" target="_blank" rel="noreferrer" className="portfolio-link">Demo</a>
+            <a href="https://github.com/erininabox/Fireside" target="_blank" rel="noreferrer" className="portfolio-link">Gitub Repo</a>
+          </div>
+        </div>
+
         <div className="portfolio-item">
           <div className="img-container">
             <img src={Bookward} className="portfolio-img" alt="Bookward screenshot"></img>

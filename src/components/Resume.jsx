@@ -92,6 +92,21 @@ class Resume extends Component {
 
         <div className="resume-section">
           <h2 className="emphasis-text resume-section">
+            Awards & Accolades
+          </h2>
+          <p className="degree">
+            <span className="degree-year">11/2021</span>
+            <span className="degree-text">
+              <span className="degree-title">First Place & People's Choice Award for Fireside Team</span>
+              <span className="degree-school-location">
+                General Assembly Hackathon | Theme: Accessibility, the Elderly, and the Holidays
+              </span>
+            </span>
+          </p>
+        </div>
+
+        <div className="resume-section">
+          <h2 className="emphasis-text resume-section">
             Prior Professional History
           </h2>
           <p className="job">
