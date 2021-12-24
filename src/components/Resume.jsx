@@ -53,6 +53,10 @@ class Resume extends Component {
               <p className="skill">Team building</p>
               <p className="skill">Communication</p>
               <p className="skill">Creative problem solving</p>
+              <p className="skill">Collaboration</p>
+              <p className="skill">Conflict resolution</p>
+              <p className="skill">Curiosity</p>
+              <p className="skill">Initiative</p>
             </div>
           </div>
         </div>
@@ -66,7 +70,10 @@ class Resume extends Component {
                 Software Engineering Immersive
               </span>
               <span className="degree-school-location">
-                General Assembly | San Francisco
+                General Assembly | San Francisco, CA
+              </span>
+              <span className="degree-description">
+              Full-stack software development immersive student in an intensive, twelve-week, 420+ in-class hour program focused on product development fundamentals, computer science fundamentals, data structures and algorithms, object-oriented programming, MVC framework, data modeling, and team collaboration and communication strategies. Demonstrated technical proficiency through development of increasingly more advanced web applications. 
               </span>
             </span>
           </p>
@@ -77,6 +84,9 @@ class Resume extends Component {
               <span className="degree-school-location">
                 CSUN | Northridge, CA
               </span>
+              <span className="degree-description">
+                Coursework focused broadly on language acquisition, phonological shifts and historical linguistics, discourse analysis, and theories of syntax.
+              </span>
             </span>
           </p>
           <p className="degree">
@@ -84,7 +94,10 @@ class Resume extends Component {
             <span className="degree-text">
               <span className="degree-title">BA Natural Sciences</span>
               <span className="degree-school-location">
-                Evergreen State College | Olympia
+                Evergreen State College | Olympia, WA
+              </span>
+              <span className="degree-description">
+                Coursework focused primarily on physics and astrophysics with a foundation of natural sciences including biology and chemistry. Additional coursework in Swiss German, linguistics, and French.
               </span>
             </span>
           </p>
@@ -98,7 +111,7 @@ class Resume extends Component {
             <span className="degree-year">11/2021</span>
             <span className="degree-text">
               <span className="degree-title">First Place & People's Choice Award for Fireside Team</span>
-              <span className="degree-school-location">
+              <span className="degree-description">
                 General Assembly Hackathon | Theme: Accessibility, the Elderly, and the Holidays
               </span>
             </span>
@@ -115,6 +128,9 @@ class Resume extends Component {
               <span className="job-title">Case Manager</span>
               <span className="job-company-location">
                 PRC Baker Places, San Francisco, CA
+              </span>
+              <span className="job-description">
+
               </span>
             </span>
           </p>

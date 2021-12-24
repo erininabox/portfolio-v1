@@ -26,17 +26,15 @@
     color: #252625;
     text-decoration: none;
     list-style-type: none;
-    font-family: "Unica One", sans-serif;
+    font-family: "Aleo", sans-serif;
 }
 .link-list-items {
     margin: 10px;
 }
 .profession-title {
-    font-family: "Unica One";
+    font-family: "Barlow Semi Condensed";
     font-size: .5em;
     display: block;
-    padding: 10px;
-
   }
 @media screen and (max-width: 700px) {
     .header {

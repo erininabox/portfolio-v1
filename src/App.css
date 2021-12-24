@@ -4,7 +4,7 @@
 .app-container {
   font-family: "Barlow Semi Condensed";
   color: #252625;
-  width: 100%;
+  /* width: 100%; */
 }
 .component {
   margin: auto;
@@ -37,7 +37,7 @@ h1 {
   text-align: center;
 }
 h2 {
-  font-family: 'Unica One';
+  font-family: 'Aleo';
 }
 h3 {
   font-family: 'Aleo';
