@@ -31,7 +31,6 @@ class Portfolio extends Component {
             <h3>Bookward</h3>
             <p>Book management app for K-12 Libraries</p>
             <p>MongoDB, Express.js, React, Node.js, Mongoose</p>
-            <a href="https://friendly-darwin-51e658.netlify.app/" target="_blank" rel="noreferrer" className="portfolio-link">Demo</a>
             <a href="https://github.com/erininabox/final-project" target="_blank" rel="noreferrer" className="portfolio-link">Readme</a>
             <a href="https://github.com/erininabox/bookward-server" target="_blank" rel="noreferrer" className="portfolio-link">Gitub Server Repo</a>
             <a href="https://github.com/erininabox/bookward-client" target="_blank" rel="noreferrer" className="portfolio-link">Gitub Client Repo</a>

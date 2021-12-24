@@ -3,7 +3,7 @@ import aticon from "../img/icons/at-sign.svg";
 import linkedinicon from "../img/icons/linkedin.svg";
 import githubicon from "../img/icons/github.svg";
 import resumeicon from "../img/icons/file-text.svg";
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 
 function Footer() {
@@ -31,7 +31,7 @@ function Footer() {
         >
           <img src={aticon} className="icon" alt="Email me" />
         </a>
-        <a href="https://1drv.ms/b/s!AiKEr1mskbPwidRrHjbAlU_fQb_e8A" className="link-list-items" target="_blank" rel="noreferrer">
+        <a href="https://1drv.ms/b/s!AiKEr1mskbPwjcpxrXAt7LWDWFNNxw" className="link-list-items" target="_blank" rel="noreferrer">
           <img src={resumeicon} className="icon" alt="Resume file" />
         </a>
       </span>
