@@ -7,7 +7,7 @@ function Header() {
       <span className="title-name">
         <Link to="/">Erin Halden</Link>
         <span className="profession-title">
-          Full stack web developer
+          Software engineer
         </span>
       </span>
 
