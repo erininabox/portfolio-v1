@@ -1,15 +1,15 @@
 .portfolio-item {
     display: flex;
     flex-direction: row;
-    margin: 25px auto;
+    margin: 35px auto;
 }
 .portfolio-item-text {
     display: block;
-    margin: 15px;
+    margin: 0 25px;
 }
 .portfolio-item-text p {
     padding: 0px;
-    margin: 10px auto;
+    margin: 0px ;
 }
 .img-container {
     width: 300px;
