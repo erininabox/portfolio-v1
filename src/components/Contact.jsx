@@ -6,7 +6,7 @@ import phoneicon from "../img/icons/phone.svg";
 
 function Contact() {
   return (
-    <div className="component">
+    <div className="contact-component">
       <h2 className="emphasis-text">Reach out to me</h2>
       <a
         href="https://www.linkedin.com/in/erininabox"

@@ -11,6 +11,7 @@ p {
 /* Skills Section */
 .skill-cards {
     display: flex;
+    min-width: 20vw;
     flex-wrap: wrap;
     margin: auto auto 20px auto;
 }
@@ -23,11 +24,6 @@ p {
 
 .skill {
     margin: 0px;
-    background: linear-gradient(
-        to bottom,
-        transparent 50%,
-        #ffffff 50%,
-    );
 }
 
 /* Education Section */
@@ -40,29 +36,26 @@ p {
     grid-template-areas: "degree-year degree-text";
     width: fit-content;
 }
-.degree-text {
+/* .degree-text {
 
-}
+} */
 .degree-year {
     width: 100px;
 }
 .degree-title {
     font-weight: 600;
     display: block;
-    background-color: rgba(245,245,245,.6);
     width: fit-content;
     padding-right: 5px;
 }
 .degree-school-location {
     display: block;
-    background-color: rgba(245,245,245,.6);
     width: fit-content;
     padding-right: 5px;
     text-decoration: underline;
 }
 .degree-description {
     display: block;
-    background-color: rgba(245,245,245,.6);
     width: fit-content;
     padding-right: 5px; 
 }
@@ -80,19 +73,16 @@ p {
 .job-title {
     font-weight: 600;
     display: block;
-    background-color: rgba(245,245,245,.6);
     width: fit-content;
     padding-right: 5px;
 }
 .job-company-location {
     display: block;
-    background-color: rgba(245,245,245,.6);
     width: fit-content;
     padding-right: 5px;
 }
 .job-description {
     display: block;
-    background-color: rgba(245,245,245,.6);
     width: fit-content;
     padding-right: 5px; 
 }

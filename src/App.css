@@ -4,11 +4,12 @@
 .app-container {
   font-family: "Barlow Semi Condensed";
   color: #252625;
-  /* width: 100%; */
+  line-height: 1.4;
 }
 .component {
-  margin: auto;
-  padding: 10px 25vw 10px 5vw;
+  margin: 0;
+  padding: 10px 10px 10px 5vw;
+  width: 70vw;
 }
 .home {
   margin: auto;
@@ -22,6 +23,12 @@
   .component {
     margin: auto;
     padding: 10px;
+  }
+  .contact-component {
+    min-width: 90vw;
+  }
+  .cactus {
+    display: none;
   }
 }
 
@@ -49,7 +56,7 @@ p {
   font-family: 'Barlow Semi Condensed';
   padding-bottom: 11px;
 }
-a {
+a, .contact-text {
   text-decoration: none;
   border-bottom: 3px solid #e77b3d;
   color: #252625;
@@ -90,9 +97,14 @@ ul {
 }
 .contact-icon {
   max-width: 20px;
-  padding: 0px 5px 6px 0;
+  padding: 0px 15px 6px 0;
 }
 .contact-text {
   justify-self: flex-start;
-  padding: 0px 5px;
+  padding: 0px;
+}
+.contact-component {
+  margin: auto;
+  padding: 30px 10px 10px 5vw;
+  max-width: 40vw;
 }

@@ -3,6 +3,7 @@ import aticon from "../img/icons/at-sign.svg";
 import linkedinicon from "../img/icons/linkedin.svg";
 import githubicon from "../img/icons/github.svg";
 import resumeicon from "../img/icons/file-text.svg";
+import landingcactus from "../img/landing-cactus.png";
 // import {Link} from 'react-router-dom';
 
 
@@ -35,6 +36,9 @@ function Footer() {
           <img src={resumeicon} className="icon" alt="Resume file" />
         </a>
       </span>
+      <div className="cactus">
+        <img className="cactus-img" src={landingcactus} alt="cactus with orange bloom on top in a terra cotta pot" />
+      </div>
     </footer>
   );
 }
