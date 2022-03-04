@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Carter+One&family=Fugaz+One&family=Gruppo&family=Overlock&family=Poiret+One&family=Special+Elite&family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo&family=Barlow+Semi+Condensed&display=swap');
 
@@ -96,3 +97,115 @@ ul {
   justify-self: flex-start;
   padding: 0px 5px;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Carter+One&family=Fugaz+One&family=Gruppo&family=Overlock&family=Poiret+One&family=Special+Elite&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Barlow+Semi+Condensed&display=swap');
+
+.app-container {
+  font-family: "Barlow Semi Condensed";
+  color: #252625;
+  line-height: 1.4;
+}
+.component {
+  margin: 0;
+  padding: 10px 10px 10px 5vw;
+  width: 70vw;
+}
+.home {
+  margin: auto;
+  display: flex;
+  padding: 10px 25vw 10px 5vw;
+  flex-wrap: wrap;
+  align-content: center;
+  min-height: 60vh;
+}
+@media screen and (max-width: 700px) {
+  .component {
+    margin: auto;
+    padding: 10px;
+  }
+  .contact-component {
+    min-width: 90vw;
+  }
+  .cactus {
+    display: none;
+  }
+}
+
+.emphasis-text {
+  font-weight: 800;
+  color: #252625;
+  display: inline;
+}
+
+h1 {
+  font-family: 'Aleo';
+  text-align: center;
+}
+h2 {
+  font-family: 'Aleo';
+}
+h3 {
+  font-family: 'Aleo';
+  color: #252625;
+  font-size: 1em;
+  line-height: 0.3;
+  padding-top: 5px;
+}
+p {
+  font-family: 'Barlow Semi Condensed';
+  padding-bottom: 11px;
+}
+a, .contact-text {
+  text-decoration: none;
+  border-bottom: 3px solid #e77b3d;
+  color: #252625;
+}
+
+.icon {
+  width: 1.1em;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.highlighted-skills {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+.skill-hp {
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #07202ca6;
+  color: white;
+  padding: 5px 15px;
+  margin: 5px;
+}
+.resume-component {
+  margin: auto;
+  padding: 10px 15vw 10px 5vw;
+}
+
+.contact-items {
+  border: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+.contact-icon {
+  max-width: 20px;
+  padding: 0px 15px 6px 0;
+}
+.contact-text {
+  justify-self: flex-start;
+  padding: 0px;
+}
+.contact-component {
+  margin: auto;
+  padding: 30px 10px 10px 5vw;
+  max-width: 40vw;
+}
+>>>>>>> 091178b9a5a1ce58c744c360069f4d0fc98c2e99

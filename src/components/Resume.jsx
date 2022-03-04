@@ -4,7 +4,7 @@ import "../styles/resume.css";
 class Resume extends Component {
   render() {
     return (
-      <div className="resume-component">
+      <div className="resume-component component">
         <div className="resume-section">
           <h2 className="emphasis-text">Skills</h2>
           <div className="skill-cards">

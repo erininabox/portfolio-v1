@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .portfolio-item {
     display: flex;
     flex-direction: row;
@@ -31,4 +32,39 @@
         flex-direction: column;
         justify-items: flex-start;
     }
+=======
+.portfolio-item {
+    display: flex;
+    flex-direction: row;
+    margin: 35px auto;
+}
+.portfolio-item-text {
+    display: block;
+    margin: 0 25px;
+}
+.portfolio-item-text p {
+    padding: 0px;
+    margin: 0px ;
+}
+.img-container {
+    width: 300px;
+    max-height: 350px;
+    object-fit: contain;
+}
+.portfolio-img {
+    max-width: 100%;
+    min-width: 300px;
+    border: solid 1px;
+}
+.portfolio-link {
+    margin-right: 10px;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    .portfolio-item {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+    }
+>>>>>>> 091178b9a5a1ce58c744c360069f4d0fc98c2e99
 }

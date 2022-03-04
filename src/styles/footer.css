@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .icon {
     font-size: medium;   
 }
@@ -29,4 +30,49 @@
         padding: 0px;
         margin: 0px;
     }
+=======
+.icon {
+    font-size: medium;   
+}
+.link-list, .link-list-items, .icon-list {
+    color: #252625;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Aleo", sans-serif;
+}
+.icon-list {
+    display: flex;
+}
+.vertical-menu {
+    writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    position: fixed;
+    right: 0px;
+    margin: 15px;
+}
+.cactus {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  margin: 15px 0 0 15px;
+}
+.cactus-img {
+  max-width: 20vw;
+  margin: 0;
+  padding: 0;
+  max-height: 50vh;
+}
+@media screen and (max-width: 700px) {
+    .vertical-menu {
+        writing-mode: horizontal-tb;
+        position: relative;
+        display: flex;
+    }
+    .icon-list {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+>>>>>>> 091178b9a5a1ce58c744c360069f4d0fc98c2e99
 }
