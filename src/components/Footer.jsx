@@ -32,7 +32,7 @@ function Footer() {
         >
           <img src={aticon} className="icon" alt="Email me" />
         </a>
-        <a href="https://1drv.ms/b/s!AiKEr1mskbPwjcpxrXAt7LWDWFNNxw" className="link-list-items" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1Z3Cp8-DR5SOS_RPtV5fhwO5PnWYVsllA/view?usp=sharing" className="link-list-items" target="_blank" rel="noreferrer">
           <img src={resumeicon} className="icon" alt="Resume file" />
         </a>
       </span>
