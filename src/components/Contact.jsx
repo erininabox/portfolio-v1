@@ -32,7 +32,7 @@ function Contact() {
         <img src={aticon} className="contact-icon" alt="Email me" />
         <span className="contact-text">Email Me: erinhalden@erininabox.com</span>
       </a>
-      <a href="https://1drv.ms/b/s!AiKEr1mskbPwidRrHjbAlU_fQb_e8A" className="contact-items" target="_blank" rel="noreferrer">
+      <a href="https://drive.google.com/file/d/1Z3Cp8-DR5SOS_RPtV5fhwO5PnWYVsllA/view?usp=sharing" className="contact-items" target="_blank" rel="noreferrer">
         <img src={resumeicon} className="contact-icon" alt="Resume file" />
         <span className="contact-text">Download my resume</span>
       </a>
