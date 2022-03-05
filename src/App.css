@@ -17,6 +17,7 @@
   padding: 10px 25vw 10px 5vw;
   flex-wrap: wrap;
   align-content: center;
+  flex-direction: column;
   min-height: 60vh;
 }
 
