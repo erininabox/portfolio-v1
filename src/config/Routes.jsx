@@ -1,17 +1,19 @@
-import { Switch, Route } from 'react-router-dom';
-import Home from '../components/Home';
-import Portfolio from '../components/Portfolio';
-import Contact from '../components/Contact';
-import Resume from '../components/Resume';
+import { Routes, Route } from 'react-router-dom';
+import Home from '../pages/Home/Home';
+import Portfolio from '../pages/Portfolio/Portfolio';
+import Contact from '../pages/Contact/Contact';
+import Resume from '../pages/Resume/Resume';
+import SignIn from '../pages/SignIn/SignIn';
 
 function Routes() {
     return (
-        <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/portfolio' component={Portfolio} />
-            <Route exact path='/contact' component={Contact} />
-            <Route exact path='/resume' component={Resume} />
-        </Switch>
+        <Routes>
+            <Route exact path='/' element={Home} />
+            <Route exact path='/portfolio' element={Portfolio} />
+            <Route exact path='/contact' element={Contact} />
+            <Route exact path='/resume' element={Resume} />
+            <Route exact path='/signin' element={SignIn} />
+        </Routes>
     )
 }
 
