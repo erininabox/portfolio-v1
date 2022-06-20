@@ -4,6 +4,9 @@ import githubicon from "../img/icons/github.svg";
 import resumeicon from "../img/icons/file-text.svg";
 import phoneicon from "../img/icons/phone.svg";
 
+// add contact form and captcha
+// how do I create a static location where I can easily store the latest resume file??
+
 function Contact() {
   return (
     <div className="contact-component">

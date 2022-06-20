@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import { getFirestore, collection, addDoc, where, query, getDocs} from "firebase/firestore";
+import "firebase/firestore";
 import "firebase/compat/auth";
 
 // Your web app's Firebase configuration
